@@ -9,54 +9,57 @@ The project also detects lexical errors such as invalid characters, unterminated
 
 🔷Features
 
-- Tokenize C source code.
+  - Tokenize C source code.
 
-- Identify Keywords, Identifiers, Constants, Operators, and Literals.
+  - Identify Keywords, Identifiers, Constants, Operators, and Literals.
 
-- Handle Single-line (//) and Multi-line (/* */) Comments.
+  - Handle Single-line (//) and Multi-line (/* */) Comments.
 
-- Support Multi-character Operators (==, >=, ++, &&, etc.).
+  - Support Multi-character Operators (==, >=, ++, &&, etc.).
 
-- Detect Lexical Errors and Unmatched Symbols.
+  - Detect Lexical Errors and Unmatched Symbols.
   
 ⚙️Technologies Used
 
-- C Programming
+    - C Programming
 
-- File Handling
+    - File Handling
 
-- Structures & Enums
+    - Structures & Enums
 
-- String Manipulation
+    - String Manipulation
 
-- Stack Concepts
+    - Stack Concepts
 
-  📍Validation
+📍Validation
   
-- Checks for invalid characters.
+    - Checks for invalid characters.
 
-- Detects unterminated string and character literals.
+    - Detects unterminated string and character literals.
 
-- Validates matching parentheses () and braces {}.
+    - Validates matching parentheses () and braces {}.
 
-  ▶️How to Run
+▶️How to Run
   
       gcc main.c lexer.c -
 
-     ./a.out source_code.c
+      ./a.out source_code.c
 
 
 🔶Sample Output
 
------- TOKEN DETAILS ------
+    ------ TOKEN DETAILS ------
 
-1 | int                  : Keyword
-1 | main                 : Identifier
-1 | (                    : Special Character
-1 | )                    : Special Character
-1 | {                    : Special Character
-2 | int                  : Keyword
-2 | a                    : Identifier
-2 | =                    : Operator
-2 | 10                   : Constant
-2 | ;                    : Special Character
+    1 | int                  : Keyword
+    1 | main                 : Identifier
+    1 | (                    : Special Character
+    1 | )                    : Special Character
+    1 | {                    : Special Character
+    2 | int                  : Keyword
+    2 | a                    : Identifier
+    2 | =                    : Operator
+    2 | 10                   : Constant
+    2 | ;                    : Special Character
+
+👩‍💻Author
+Praveena
