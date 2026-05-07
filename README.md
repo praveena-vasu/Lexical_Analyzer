@@ -41,9 +41,9 @@ The project also detects lexical errors such as invalid characters, unterminated
 
   ▶️How to Run
   
-gcc main.c lexer.c -
+      gcc main.c lexer.c -
 
-./a.out source_code.c
+     ./a.out source_code.c
 
 
 🔶Sample Output
