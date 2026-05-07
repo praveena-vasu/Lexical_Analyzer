@@ -21,15 +21,15 @@ The project also detects lexical errors such as invalid characters, unterminated
   
 ⚙️Technologies Used
 
-    - C Programming
+  - C Programming
 
-    - File Handling
+  - File Handling
 
-    - Structures & Enums
+  - Structures & Enums
 
-    - String Manipulation
+  - String Manipulation
 
-    - Stack Concepts
+  - Stack Concepts
 
 📍Validation
   
