@@ -33,11 +33,11 @@ The project also detects lexical errors such as invalid characters, unterminated
 
 📍Validation
   
-    - Checks for invalid characters.
+  - Checks for invalid characters.
 
-    - Detects unterminated string and character literals.
+  - Detects unterminated string and character literals.
 
-    - Validates matching parentheses () and braces {}.
+  - Validates matching parentheses () and braces {}.
 
 ▶️How to Run
   
